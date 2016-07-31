@@ -25,9 +25,13 @@
 
 ##基础命令
 
-1. 克隆项目
+1. 克隆仓库
 ```bash
 git clone [url]
+```
+例如：
+```bash
+git clone git@github.com:Ferry1005/git-practice.git
 ```
 
 2. 添加到缓存
@@ -40,7 +44,7 @@ git add -A
 git add [url/文件名]
 ```
 
-3. 推送到本地仓库
+3. 提交到本地仓库
 ```bash
 git commit -m '注释内容'
 ```
@@ -65,12 +69,12 @@ git push [分支名]
 ```bash
 git push origin master
 ```
-```zsh
+```bash
 git push origin dev
 ```
 
 
-查看状态
+- 查看状态
 ```bash
 git status
 ```
@@ -78,19 +82,38 @@ git status
 ---
 
 ##分支
-查看分支
+
+- 查看分支
 ```bash
 git branch
 ```
 注： 星号（*）代表当前分支
 
 
-创建分支
+- 创建分支
 ```bash
 git branch [分支名]
 ```
 
-切换分支
+- 切换分支
 ```bash
 git checkout [分支名]
+```
+
+##其他
+
+- 查看配置信息
+```bash
+git confit --list
+```
+
+- 查看帮助
+```bash
+git help
+```
+- 查看某条命令的帮助信息
+```bash
+git help <verb>
+git <verb> --help
+man git-<verb>
 ```
