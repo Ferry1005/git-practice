@@ -7,7 +7,6 @@
 * [Markdown语法入门](http://www.jianshu.com/p/q81RER)
 * [Markdown语法说明](http://wowubuntu.com/markdown/)
 
----
 
 ##申明：
 
