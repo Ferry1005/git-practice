@@ -1,6 +1,20 @@
-Git 小组练习
+##Git 小组练习
+---
 
-##命令
+申明：所有文件命名请用英文！
+
+---
+
+##git操作说明
+1. 开发新功能先切到`dev`分支, 若不存在`dev`分支，则从`master`切个`dev`分支 `git checkout -b dev`
+2. 从`dev`分支切个新功能分支 `git checkout -b feature/功能名(请用英文)`
+3. 新功能开发完后，申请把`新功能分支`合并到`dev`分支
+4. 小组确认无误后，申请把`dev`合并到`master`
+5. 删除`dev`
+
+---
+
+##基础命令
 
 1. 克隆项目
 ```bash
@@ -51,6 +65,9 @@ git push origin dev
 ```bash
 git status
 ```
+
+---
+
 ##分支
 查看分支
 ```bash
