@@ -50,8 +50,9 @@
 	```bash
 	git commit -m '注释内容'
 	```
-	> 1. 第2步和第3步可合并命令为 `git commit -a -m '注释内容'`
-	> 2. 若提交后有问题，可`add`修改后重新提交 `git commit --amend`
+> 1. 第2步和第3步可合并命令为 `git commit -a -m '注释内容'`
+> 2. 若提交后有问题，可`add`修改后重新提交 `git commit --amend`
+
 
 4. 从远程仓库拉取分支
 	```bash
