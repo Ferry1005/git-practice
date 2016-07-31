@@ -48,6 +48,7 @@ git add [url/文件名]
 ```bash
 git commit -m '注释内容'
 ```
+> 第2步和第3步可合并命令为 `git commit -a -m '注释内容'`
 
 4. 从远程仓库拉取分支
 ```bash
@@ -116,4 +117,15 @@ git help
 git help <verb>
 git <verb> --help
 man git-<verb>
+```
+
+##查看已缓存和未缓存的改动内容
+- 查看尚未缓存的改动内容
+```bash
+git diff
+```
+
+- 查看已经缓存的改动内容
+```bash
+git diff --staged
 ```
