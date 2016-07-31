@@ -2,9 +2,9 @@
 ---
 
 ##资源
-- [官方教程](https://git-scm.com/book/zh/v2)
-- [廖雪峰git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
-- [Markdown语法](http://www.jianshu.com/p/q81RER)
+* [官方教程](https://git-scm.com/book/zh/v2)
+* [廖雪峰git教程](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000)
+* [Markdown语法](http://www.jianshu.com/p/q81RER)
 ---
 
 ##申明：
@@ -26,55 +26,55 @@
 ##基础命令
 
 1. 克隆仓库
-```bash
-git clone [url]
-```
-例如：
-```bash
-git clone git@github.com:Ferry1005/git-practice.git
-```
+	```bash
+	git clone [url]
+	```
+	例如：
+	```bash
+	git clone git@github.com:Ferry1005/git-practice.git
+	```
 
 2. 添加到缓存
-添加所有修改
+	添加所有修改
 
-```bash
-git add -A
-```
-或添加指定文件
-```bash
-git add [url/文件名]
-```
+	```bash
+	git add -A
+	```
+	或添加指定文件
+	```bash
+	git add [url/文件名]
+	```
 
 3. 提交到本地仓库
-```bash
-git commit -m '注释内容'
-```
+	```bash
+	git commit -m '注释内容'
+	```
 > 第2步和第3步可合并命令为 `git commit -a -m '注释内容'`
 
 
 4. 从远程仓库拉取分支
-```bash
-git pull [分支名]
-```
-例如：
-```bash
-git pull origin master
-```
-```bash
-git pull origin dev
-```
+	```bash
+	git pull [分支名]
+	```
+	例如：
+	```bash
+	git pull origin master
+	```
+	```bash
+	git pull origin dev
+	```
 
 5. 推送到远程仓库
-```bash
-git push [分支名]
-```
-例如：
-```bash
-git push origin master
-```
-```bash
-git push origin dev
-```
+	```bash
+	git push [分支名]
+	```
+	例如：
+	```bash
+	git push origin master
+	```
+	```bash
+	git push origin dev
+	```
 
 
 - 查看状态
